@@ -1135,7 +1135,7 @@ wheels = [
 [[package]]
 name = "rustedpy-maybe"
 version = "0.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 
 [package.optional-dependencies]
 result = [
@@ -1152,6 +1152,7 @@ dev = [
     { name = "pytest-asyncio" },
     { name = "pytest-cov" },
     { name = "pytest-mypy-plugins" },
+    { name = "result" },
     { name = "twine" },
 ]
 
@@ -1168,6 +1169,7 @@ dev = [
     { name = "pytest-asyncio", specifier = ">=0.24.0" },
     { name = "pytest-cov", specifier = ">=5.0.0" },
     { name = "pytest-mypy-plugins", specifier = ">=3.1.2" },
+    { name = "result", specifier = ">=0.17.0" },
     { name = "twine", specifier = ">=6.0.1" },
 ]
 

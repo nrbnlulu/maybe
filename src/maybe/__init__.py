@@ -1,22 +1,22 @@
 from .maybe import (
-    Nothing,
     NOTHING,
+    Maybe,
+    Nothing,
     Some,
     SomeNothing,
-    Maybe,
     UnwrapError,
-    is_some,
     is_nothing,
+    is_some,
 )
 
 __all__ = [
-    "Nothing",
     "NOTHING",
+    "Maybe",
+    "Nothing",
     "Some",
     "SomeNothing",
-    "Maybe",
     "UnwrapError",
-    "is_some",
     "is_nothing",
+    "is_some",
 ]
 __version__ = "0.0.0"
